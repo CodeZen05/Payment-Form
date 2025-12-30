@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Bebas+Neue&family=Rowdies:wght@300;400;700&family=Sekuya&display=swap");
+* {
+  margin: 8px;
+  padding: 6px;
+  background-color: #ddba7d;
+  
+}
+::-webkit-scrollbar {
+    display: none;
+}
+div {
+  margin: 40px;
+  padding: 30px;
+}
+div form {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+form h1 {
+  text-align: center;
+  font-family: "BBH Bartle", sans-serif;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+form h2 {
+  text-align: center;
+  font-family: "BBH Bartle", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+p {
+  background-color: rgb(255, 255, 255);
+  font-family: "BBH Hegarty", sans-serif;
+  font-weight: 400;
+}
+.address {
+  width: 100px;
+}
+.address textarea {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+}
+p i {
+  background-color: rgb(255, 255, 255);
+}
+p input {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+#card {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 6px;
+    outline: none;
+}
+button {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-family: "BBH Bartle", sans-serif;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+button:hover {
+  color: #ddba7d;
+  transition: 1s;
+}
+legend {
+  background-color: white;
+}
+fieldset {
+  background-color: white;
+  font-family: "BBH Hegarty", sans-serif;
+  font-weight: 400;
+  border: 1px solid #ccc;
+}

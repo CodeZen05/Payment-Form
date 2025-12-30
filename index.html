@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div>
+    <form action="" method="get">
+       <h1>Payment Form</h1>
+        <br>
+       <h2>Personal Info</h2>
+       <p>Name*
+       <input type="text" required name="name" placeholder="Name"></p>
+       <fieldset>
+       <legend>Gender</legend>
+       Male<input type="radio" name="gender" id="male" value="M" required>Female<input type="radio" name="gender" id="Female" value="F" required>
+       </fieldset>
+       <p class="address">
+        Address:
+        <textarea rows="10" cols="30" name="Address" id="address" placeholder="Enter Your Address" required></textarea></p>
+        <p>
+            Email:
+            <input type="email" name="Email" id="Email" placeholder="Email">
+         </p>
+            <p>pincode:
+                <input type="number" placeholder="pincode" required >
+            </p>
+            <br>
+            <h2>Payment Info</h2>
+            <p>Card Type:<i class="fa-solid fa-wallet"></i>
+                <select name="card" id="card">
+                    <option value="">---Choose card Type---</option>
+                    <option value="Visa">Visa</option>
+                    <option value="master">Master</option>
+                    <option value="master">American Express</option>
+                </select>
+             <i class="fa-brands fa-cc-visa"></i>
+             <i class="fa-brands fa-cc-mastercard"></i>
+             <i class="fa-brands fa-cc-amex"></i>
+            </p>
+            <p>
+                Card Number: *
+                <input type="number" name="number" id="nuber" placeholder="1111=0000-4444-8888" required>
+
+            </p>
+            <p>
+                Expiration date:
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                CVV:
+                <input type="password" name="CVV" id="CVV" placeholder="123" required>
+            </p>
+         <Button>Paynow</Button>
+    </form>
+    </div>
+</body>
+</html>
